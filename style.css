@@ -10,6 +10,13 @@ body{
     background: linear-gradient(135deg, #2f5cbc 0%,#103b97 30%,#0c307c 65%,#052155 100%);
     padding: 50px;
 }
+.div1{
+
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .div1 img{
     float: left;
     width: 30px;
@@ -25,6 +32,7 @@ h1{
     color: #ffffff;
 }
 .kifepol{
+    margin-left: 750px;
     padding: 15px;
     border-radius: 20px;
     background: radial-gradient(circle at top right, #0c3175, #102d67);
