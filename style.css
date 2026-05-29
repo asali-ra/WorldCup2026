@@ -38,7 +38,7 @@ h1{
     padding: 15px;
     border-radius: 20px;
     background: radial-gradient(circle at top right, #0c3175, #102d67);
-    box-shadow: 2px 2px 10px black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
     border:1px #ffffff45 solid;
     width: 220px;
     height:80px;
@@ -75,7 +75,7 @@ h1{
     padding: 15px;
     border-radius: 20px;
     background: radial-gradient(circle at top right, #0c3175, #102d67);
-    box-shadow: 2px 2px 10px black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
     border:1px #ffffff45 solid;
     width: 200px;
     height:350px;
@@ -102,7 +102,7 @@ h1{
     padding: 15px;
     border-radius: 20px;
     background: radial-gradient(circle at top right, #0c3175, #102d67);
-    box-shadow: 2px 2px 10px black;;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
     border:1px #ffffff40 solid;
     text-align: center;
     width: 400px;
@@ -179,7 +179,7 @@ h1{
     padding: 15px;
     border-radius: 20px;
     background: radial-gradient(circle at top right, #0c3175, #102d67);
-    box-shadow: 2px 2px 10px black;;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
     border:1px #ffffff40 solid;
     text-align: center;
     width: 400px;
@@ -208,7 +208,7 @@ h1{
     unicode-bidi: embed;
 }
 .button{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.324);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
     font-family: Pinar-FD;
     width: 400px;
     margin-top: 10px;
