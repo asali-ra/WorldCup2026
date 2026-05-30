@@ -3,15 +3,17 @@
     padding: 0;
 }
 body{
-    background-image: url(pic/bg.png);
+    /*background-image: url(pic/bg2.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Pinar-FD, sans-serif;
+    background-size: cover;*/
+    font-family: Pinar-FD;
     }
 
 .main{
-    /*background: linear-gradient(135deg, #2f5cbc 0%,#103b97 30%,#0c307c 65%,#052155 100%);*/
-    padding: 50px;
+   /* background: linear-gradient(135deg, #2f5cbc 0%,#103b97 30%,#0c307c 65%,#052155 100%);*/
+   background-color: #000758;
+   height: 800px;
+   padding: 50px;
 }
 .div1{
     direction: ltr;
