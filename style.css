@@ -12,7 +12,9 @@ body{
 .main{
    /* background: linear-gradient(135deg, #2f5cbc 0%,#103b97 30%,#0c307c 65%,#052155 100%);*/
    background-color: #000758;
-   height: 800px;
+   height: 100%;
+   min-height: 100dvh;
+   min-height: 100vh;
    padding: 50px;
 }
 .div1{
