@@ -38,13 +38,13 @@ h1{
     color: #ffffff;
 }
 .kifepol{
-    margin-left: 720px;
+    margin-left: 740px;
     padding: 20px;
     padding-top: 30px;
     border-radius: 20px;
-    background: radial-gradient(circle at top right, #0c3175, #102d67);
+    background: radial-gradient(circle at top right, #00205c, #012876);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
-    border:1px #ffffff45 solid;
+    border:1px #1f5db8 solid;
     width: 220px;
     height:70px;
     color: white;
@@ -57,14 +57,14 @@ h1{
     color: #ffffff;
 }
 .kifepol p{
+    padding-right: 0;
     padding-top: 5px  ;
-    text-align: center;
+    direction: rtl;
     font-size: 16px;
 }
 
 .kifepol img{
-    
-    padding: 0;
+    padding-top: 10px;
     float: left;
     width: 50px;
     height: 50px;
@@ -80,18 +80,29 @@ h1{
 .leaderboard{
     padding: 20px;
     border-radius: 20px;
-    background: radial-gradient(circle at top right, #0c3175, #102d67);
+   /* background: radial-gradient(circle at top right, #0c3175, #102d67);*/
+    background: radial-gradient(circle at top right, #00205c, #012876);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
     border:1px #ffffff45 solid;
     width: 220px;
     height:350px;
     color: white;
 }
+.leaderboard img{
+    padding-right: 20px;
+    padding-top: 10px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    direction: ltr;
+}
 .leaderboard h2{
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-top: 15px;
     text-align: center;
     font-weight:900;
-    font-size: 22px;
+    font-size: 20px;
     color: #ffffff;
 }
 .leaderboard p{
@@ -107,7 +118,7 @@ h1{
     margin-right: 100px;
     padding: 15px;
     border-radius: 20px;
-    background: radial-gradient(circle at top right, #0c3175, #102d67);
+    background: radial-gradient(circle at top right, #00205c, #012876);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
     border:1px #ffffff40 solid;
     text-align: center;
@@ -175,7 +186,7 @@ h1{
     display: inline-block;
     font-size: 15px;
     line-height:20px;
-    color: #b5c1d9;
+    color: #237cdd;
     text-align: center;
     border-radius: 20px;
 }
@@ -214,15 +225,20 @@ h1{
     unicode-bidi: embed;
 }
 .button{
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
-    font-family: Pinar-FD;
     width: 400px;
+    height: 50px;
     margin-top: 10px;
     font-size: 18px;
     font-weight: 30;
     padding-right: 30px;
     padding-left: 30px;
-    background-color: #eda704;
+    background: linear-gradient(180deg, #005eff 0%, #004aca 18%, #0056d6 50%,#005eff 100%);
     border-radius: 10px;
-
+    border: none;
+}
+.button p{
+    font-family: Pinar-FD,pinar;
+    font-weight: 400;
+    font-size: 20px;
+    color:white;
 }
